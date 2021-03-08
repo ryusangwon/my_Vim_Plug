@@ -2,13 +2,18 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-fugitive'
 
+" ds ( to remove (, ys$ ( to make (
 Plug 'tpope/vim-surround'
 
+" :NERDTreeToggle to find folder
 Plug 'scrooloose/nerdtree'
 
+" check error before compile
 Plug 'scrooloose/syntastic'
 
+" check difference
 Plug 'airblade/vim-gitgutter'
+
 
 Plug 'vim-airline/vim-airline'
 
