@@ -45,6 +45,10 @@ Plug 'haya14busa/incsearch.vim'
 
 Plug 'kien/ctrlp.vim'
 
+Plug 'vim-scripts/taglist.vim'
+
+Plug 'fholgado/minibufexpl.vim'
+
 call plug#end()
 
 set autoindent
@@ -65,7 +69,6 @@ set showcmd
 set showmatch
 
 set tags =./tags
-set tags+=/home/ryu/AndroidStudioProjects/MPlus/tags
 set tags+=/home/ryu/AndroidStudioProjects/MPlus/client/tags
 set tags+=/home/ryu/AndroidStudioProjects/MPlus/server/tags
-set tags+=/home/ryu/WORKING_DIRECTORY/tags
+set tags+=/home/ryu/WORKING_DIRECTORY/frameworks/tags
